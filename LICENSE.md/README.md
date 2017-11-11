@@ -1,4 +1,4 @@
-# cocoa-and-code
+# Cocoa and Code
 
 Saturday morning intros to coding.
 
