@@ -95,4 +95,4 @@ Tables are a more complicated construct. Here is an example, easy to figure out:
 
 ## Homework
 
-Create a tic-tac-toe board using the `x.png` and `o.png` in this [folder](..). When someone clicks on the `x` it should link to a page, that says "you clicked on x" and when someone clicks on the `o` it should link to a page, that says "you clicked on o".
+Create a tic-tac-toe board using the `x.png` and `o.png` in this [folder](https://github.com/davidnuescheler/cocoa-and-code/blob/master/Session-01-HTML/). When someone clicks on the `x` it should link to a page, that says "you clicked on x" and when someone clicks on the `o` it should link to a page, that says "you clicked on o".
