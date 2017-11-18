@@ -71,7 +71,7 @@ There are two popular lists, ordered lists and unordered list. It is pretty easy
 Tables are a more complicated construct. Here is an example, easy to figure out:
 
 ~~~~ html
-<table>
+<table border="1">
     <tr>
         <td>Flour</td>
         <td>1000g</td>
