@@ -10,7 +10,7 @@ Other than HTML, CSS does not have tags and attributes, but instead a completely
 
 So if you go back to your HTML document, let's style the `<h1>` heading and the body of the document by adding the following to your HTML document...
 
-~~~~ css
+~~~~ html
 <style>
 
 h1 {
