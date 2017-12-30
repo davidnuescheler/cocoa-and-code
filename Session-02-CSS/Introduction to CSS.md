@@ -76,7 +76,52 @@ all of those can be controlled with the `margin`,`border`,`padding` properties. 
 
 ## Classes
 
+One of the most common ways of applying styles to elements in an HTML document is through classes. Elements in HTML have a `class` attribute. For example 
+
+~~~~ html
+<div class="quote"><p>“How can a nation be called great if its bread tastes like kleenex?”</p>
+<p class="by">― Julia Child</p>
+</div>
+~~~~
+
+and the corresponding styling in CSS, where the classes `quote` and `by` are referred to by `.quote` and `.by` in the CSS selectors.
+
+~~~~ css
+
+.quote {
+    font-style: italic;
+    font-size: 1em;
+    padding: 20px;
+    margin-left: 50px;
+    border-left: 3px solid black;
+}
+
+.by {
+    font-style: normal;
+    font-size: 0.75em;
+    margin-left: 20px;
+    font-weight: 700;
+
+}
+
+~~~~
+
+As you can see properties are inherited from the `<div>` tag with the `quote` class to the `<p>` tags with the quote and the attribution.
+
+
 ## Pseudo Classes
+
+A special case of classes are so-called pseudo classes. There are a range of mildly useful pseudo classes around styling links and special cases of layout. One of the most useful pseudo class on desktop is `:hover` which let's you change the appearance of an element when the mouse cursor is over it. so on the quote example, you could have something like this:
+
+~~~~ css
+
+.quote:hover {
+    background-color: #dddddd;
+}
+
+~~~~
+
+
 
 ## Referencing Styles
 
