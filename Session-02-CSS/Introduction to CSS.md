@@ -121,9 +121,29 @@ A special case of classes are so-called pseudo classes. There are a range of mil
 
 ~~~~
 
-
-
-## Referencing Styles
-
 ## Animations
 
+CSS also allows you to animate things. in CSS you define animations with `@keyframes` and then reference them.
+
+~~~~ css
+
+@keyframes highlight {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+    }
+
+.quote:hover {
+    animation-name: highlight;
+    animation-duration: 4s;
+}
+    
+~~~~
+
+## Tooling: Developer Tools
+
+In Chrome, you can find the "Developer Tools" in the "View -> Developer" menu, which is extremely helpful when debugging CSS and HTML. See the screenshot below.
+
+
+![Developer Tools](devtools.png)
