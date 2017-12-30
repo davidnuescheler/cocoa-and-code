@@ -56,7 +56,23 @@ As an example try, to change the colors of your CSS style from the blue colors t
 
 ## Fonts
 
-## Box Model (Margin, Border, Padding, Height and Width)
+CSS let's you control all aspects of fonts, to add typography to your HTML pages. One of the the most important property is `font-family` specifying which font to use. Example values are `Arial`,`Times`,`Georgia`. You can specify multiple fonts in sequence as a fall back if a font is not available, so something like `Helvetica, Arial, sans-serif` would try to use Helvetica first, then Arial, and if neither of those are available the browser would use any other sans-serif font.
+
+Font size can be specified by by the `font-size` property. CSS allows for a range of units, two of the most common ones are `px` for pixels and `em` which is relative to the font size in the browser and by default 1em equals 16px.
+
+Two other common properties are `font-style` (values of `italic`, `oblique`, `normal`) and `font-weight` (values ranging from 100 to 900).
+
+## Box Model (Margin, Border, Padding and Content)
+
+CSS works on a "Box Model" which assumes that every HTML element for layout purposes is in a box. And the box is made up of a margin, a border, padding and the content.
+
+![Box Model Example](https://stuyhsdesign.files.wordpress.com/2015/10/box-model.png)
+
+... or more specificly ...
+
+![Box Model Detail](https://i.pinimg.com/originals/b1/79/76/b179765cbff3d5c6ac2f6cc932293af5.png)
+
+all of those can be controlled with the `margin`,`border`,`padding` properties. there are individual `padding-left` or `margin-top` variants of the properties, that let you set the property for one side only. the `margin-*` and `padding-*` properties have values with `px` or `em` units. The border specifies also color and type, so an example would be, `border: 5px solid red;`
 
 ## Classes
 
