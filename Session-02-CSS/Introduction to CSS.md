@@ -152,4 +152,7 @@ In Chrome, you can find the "Developer Tools" in the "View -> Developer" menu, w
 
 Recreate the tic tac toe board but this time without any images, and 
 when you hover over the X or O's, the background and the color of the X's O's 
-change. Animations are a bonus.
+change. Animations are a bonus. Could look something like this...
+
+![Homework](homework.png)
+
